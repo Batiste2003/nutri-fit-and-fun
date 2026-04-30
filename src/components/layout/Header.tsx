@@ -41,7 +41,7 @@ export function Header() {
     >
       <nav className="mx-auto max-w-6xl flex items-center justify-between px-6 py-4">
         {/* Logo */}
-        <Link to="/" className="font-display text-gold text-xl tracking-widest italic">
+        <Link to="/" className="font-display text-gold text-xl tracking-widest">
           Nutri Fit &amp; Fun
         </Link>
 

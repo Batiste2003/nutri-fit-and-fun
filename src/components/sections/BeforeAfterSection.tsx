@@ -6,7 +6,7 @@ export function BeforeAfterSection() {
     <section className="bg-background-dark py-20 md:py-28 px-6">
       <div className="mx-auto max-w-6xl">
         <ScrollReveal>
-          <h2 className="font-display text-gold text-3xl md:text-4xl text-center mb-16 italic">
+          <h2 className="font-display text-gold text-3xl md:text-4xl text-center mb-16">
             Avant / Après
           </h2>
         </ScrollReveal>
@@ -24,7 +24,7 @@ export function BeforeAfterSection() {
                   />
                 </div>
                 <div className="mt-3 text-center">
-                  <p className="font-display text-gold text-xl font-bold">
+                  <p className="font-display text-gold text-xl">
                     {t.year}
                   </p>
                   <p className="text-foreground/70 text-xs tracking-widest uppercase">

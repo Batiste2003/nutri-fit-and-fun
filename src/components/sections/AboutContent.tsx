@@ -25,7 +25,7 @@ export function AboutContent() {
           </ScrollReveal>
 
           <ScrollReveal delay={0.25}>
-            <p className="font-display text-gold text-lg italic">
+            <p className="font-display text-gold text-lg">
               Ma vision du sport repose sur trois piliers essentiels&nbsp;:
             </p>
             <ul className="mt-4 space-y-3 pl-4">

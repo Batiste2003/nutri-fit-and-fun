@@ -23,7 +23,7 @@ export function RenseignementsSection() {
     <section className="bg-background py-20 md:py-28 px-6">
       <div className="mx-auto max-w-4xl">
         <ScrollReveal>
-          <h2 className="font-display text-gold text-3xl md:text-4xl text-center mb-16 italic">
+          <h2 className="font-display text-gold text-3xl md:text-4xl text-center mb-16">
             Renseignements&nbsp;:
           </h2>
         </ScrollReveal>
@@ -33,7 +33,7 @@ export function RenseignementsSection() {
             <ScrollReveal key={badge.title} delay={i * 0.15}>
               <div className="flex flex-col items-center gap-4 text-center">
                 <div className="w-20 h-20 rounded-full border-2 border-gold flex items-center justify-center bg-background-dark/50">
-                  <span className="font-display text-gold text-lg font-bold">
+                  <span className="font-display text-gold text-lg">
                     {badge.icon}
                   </span>
                 </div>

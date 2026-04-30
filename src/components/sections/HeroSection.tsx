@@ -21,7 +21,7 @@ export function HeroSection() {
           {SITE.tagline}
         </p>
 
-        <h1 className="hero-fade-in hero-delay-2 font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl italic text-foreground tracking-wide">
+        <h1 className="hero-fade-in hero-delay-2 font-display text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-foreground tracking-wide">
           {SITE.name}
         </h1>
 

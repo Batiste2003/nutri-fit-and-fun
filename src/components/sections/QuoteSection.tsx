@@ -6,7 +6,7 @@ export function QuoteSection() {
     <section className="bg-background py-20 md:py-28 px-6">
       <ScrollReveal>
         <blockquote className="mx-auto max-w-3xl text-center">
-          <p className="font-display italic text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-relaxed text-foreground/90">
+          <p className="font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-relaxed text-foreground/90">
             {SITE.quote}
           </p>
         </blockquote>
